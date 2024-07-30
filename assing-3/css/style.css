@@ -1,0 +1,158 @@
+body
+{
+    margin: 0px;
+    background-color: red;
+}
+h1,h2,h3,h4,h5,h6
+{
+    font-family: sans-serif;
+}
+section>h1
+{
+    position: relative;
+    top: 30%;
+    text-align: center;
+    color: black;
+    font-size: 54px;
+}
+section>p
+{
+   position: relative;
+    top: 30%;
+    text-align: center;
+    color: black;
+    font-size: 54px; 
+    font-family: sans-serif;
+}
+header
+{
+    height: 125px;
+    background-color: #000000;/*setting the nav color black even though you taught us that black and red color doesnt feel good for the eyes of user because my movie poster is terminator so color black and red goes well with it*/
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+header>div
+{
+    width: auto;
+    height: 115px;
+    float: left;
+    position: relative;
+    top: 5%;
+}
+header>div>a>img
+{
+    width: auto;
+    height: 100%;
+}
+header>nav
+{
+    float: right;
+    padding-top:25px;
+    position: relative;
+    top: 10%;
+}
+header>nav>menu
+{
+    list-style: none;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-left: 0px;
+}
+header>nav>menu>li
+{
+    float: left;
+    padding: 0px 35px;
+}
+header>nav>menu>li>a
+{
+    color: red;/*setting the link text color as red even though you taught us that black and red color doesnt feel good for the eyes of user because my movie poster is terminator so color black and red goes well with it*/
+}
+.postersec2
+{
+    height: auto;
+    width: 100vw;
+}
+.posterdiv2
+{
+    height: 100%;
+    width: 100%;
+}
+.posterimg2
+{
+    height: 100%;
+    width: 100%;
+   
+}
+.postersec2
+{
+    height: auto;
+    width: 100vw;
+}
+.posterdiv2
+{
+    height: 100%;
+    width: 100%;
+}
+.posterimg2
+{
+    height: 100%;
+    width: 100%;
+   
+}
+.postersec
+{
+    height: auto;
+    width: 100vw;
+}
+.posterdiv
+{
+    height: 100%;
+    width: 100%;
+}
+.posterimg
+{
+    height: 100%;
+    width: 100%;
+   
+}
+.ptitle
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:red;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 200px; 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    
+}
+.paradiv
+{
+    position: absolute;
+    top: 270%; 
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 40px;
+    font-family: sans-serif;
+    width: 80%;
+}
+.creditsec
+ {
+    position: absolute;
+    top: 340%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    width: 80%;
+
+}
+
+.creditdiv
+{
+    font-size:40px; /* Adjust as needed */
+}
